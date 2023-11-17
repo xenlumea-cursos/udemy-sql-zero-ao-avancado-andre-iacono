@@ -1,8 +1,8 @@
 use sakila;
 
-SELECT 
+SELECT
     *
 FROM
-     address
+    address
 WHERE
-	district IN ('Alberta', 'Texas', 'California');
+    district IN ('Alberta', 'Texas', 'California');

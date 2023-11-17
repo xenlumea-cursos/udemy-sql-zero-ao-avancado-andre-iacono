@@ -1,16 +1,16 @@
 use sakila;
- 
-SELECT 
+
+SELECT
     *
 FROM
     payment
 WHERE
     amount != 0.99
--- ORDER BY amount DESC
+    -- ORDER BY amount DESC
 ;
--- ///////////////////////////////// 
 
-SELECT 
+-- ///////////////////////////////// 
+SELECT
     *
 FROM
     address

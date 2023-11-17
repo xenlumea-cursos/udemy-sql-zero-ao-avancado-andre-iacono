@@ -1,6 +1,6 @@
 use sakila;
 
-SELECT 
+SELECT
     cus.customer_id,
     cus.first_name,
     cus.last_name,
@@ -8,5 +8,4 @@ SELECT
     pay.amount
 FROM
     customer AS cus
-        JOIN
-    payment AS pay ON cus.customer_id = pay.payment_id;
+    JOIN payment AS pay ON cus.customer_id = pay.payment_id;

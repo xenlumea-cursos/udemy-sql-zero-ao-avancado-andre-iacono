@@ -1,8 +1,8 @@
 use sakila;
 
-SELECT 
-     *
+SELECT
+    *
 FROM
     address
 WHERE
-    address2 is null
+    address2 IS NULL

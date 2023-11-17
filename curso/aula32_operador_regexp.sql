@@ -1,7 +1,9 @@
 use sakila;
 
-SELECT 
+SELECT
      *
 FROM
-    actor where first_name REGEXP '^[gcr]a'
- -- where first_name REGEXP '^a|^d|^r'
+     actor
+WHERE
+     first_name REGEXP '^[gcr]a'
+     -- where first_name REGEXP '^a|^d|^r'

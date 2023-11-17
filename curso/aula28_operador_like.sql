@@ -1,6 +1,6 @@
 use sakila;
 
-SELECT 
+SELECT
     *
 FROM
     actor

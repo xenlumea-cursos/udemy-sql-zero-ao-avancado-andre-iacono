@@ -1,7 +1,8 @@
 use sakila;
 
-SELECT 
-     *
+SELECT
+    *
 FROM
     actor
-LIMIT 99,10
+LIMIT
+    99, 10
